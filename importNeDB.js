@@ -13,7 +13,6 @@
 var Nedb = require('nedb');
 var async = require('async');
 var path = require('path');
-var common = require('../routes/common');
 var fs = require('fs');
 
 function importKB() {
